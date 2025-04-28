@@ -26,7 +26,8 @@
 
         <button onclick="addProduct()" class="btn  btn-outline-info">Add Product</button>
     </div>
-    <div class="w-75 mx-auto text-center py-5">
+    <div class="w-75 mx-auto text-center py-5 ">
+        <input oninput="searchProduct(this.value)" type="text" class="form-control w-75 mx-auto" id="searchInput" onkeyup="searchProduct()" placeholder="Search For Product">
     <table class="table">
         <thead>
             <tr>
