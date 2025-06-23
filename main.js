@@ -1,6 +1,5 @@
 var ProductNameInput = document.getElementById("ProductNameInput");
 var ProductPriceInput = document.getElementById("ProductPriceInput");
-<<<<<<< HEAD
 var ProductCategoryInput = document.getElementById("ProductCategoryInput");
 var ProductDescInput = document.getElementById("ProductDescInput");
 var searchInput = document.getElementById("searchInput");
@@ -50,7 +49,7 @@ function validateProductName() {
         return false;
     }
 }
-=======
+
 var ProductCategoryInput = document.getElementById("ProductCategoryInput"); //ProductCategoryInput
 var ProductDescriptionInput = document.getElementById("ProductDescriptionInput");
 var productsContainer = [];
@@ -145,4 +144,3 @@ function validateProductName() {
     }   
 }
 
->>>>>>> 73b1eb7dce9524c4cb81fbc63a20d5aa408c8553
